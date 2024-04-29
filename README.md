@@ -1,16 +1,45 @@
 # NodeJS - Aspire Code Challange
- Install Node.js, npm, and MongoDB
-
- 
-## To run project execute below two commands
-- docker-compose build
-- docker-compose up
 
 
-1. Install Node.js, npm, and MongoDB.
-2. Create a new directory for your project and navigate into it.
-3. Create a package.json file with npm init -y.
-4. Install Express, Mongoose, and body-parser dependencies with npm install express mongoose body-parser.
-5. Copy the code into a file named index.js.
-6. Run MongoDB server with mongod.
-7. Run the server with node index.js.
+##  Step 1 Install dependencies 
+***
+    MongoDB, Node, npm
+*** 
+
+***
+    Clone to this repo : https://github.com/PriyankshaS/AspireCode.git
+***
+
+
+## Setup env file with database
+
+***
+
+    APP_NAME="LOAN MINI API"
+    APP_DB=mongodb://localhost:27017/miniaspire
+    APP_PORT=8080
+    APP_SECRET=qwertyuiopasdfghjklzxcvbnm
+    APP_URL=http://localhost:8080
+
+***
+
+
+##  Step 3 
+
+***
+    npm install
+***
+
+
+## Step 4
+
+
+### Start project using nodemon
+***
+     npm run dev
+***
+
+### Test project using Jest
+***
+     npm run test
+***
